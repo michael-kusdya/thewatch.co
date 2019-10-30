@@ -1,22 +1,101 @@
-.App {
+.navs{
+  box-shadow: none; 
+  position: fixed; 
+  top: 0px; 
+  margin-top: 0px; 
+  background-color: rgb(32, 97, 103);
+}
+
+.navs a{
+  color: white !important;
+}
+
+
+.separator{
+  height: 25px;
+  width: 100%;
+  background-color: white;
+}
+
+.footer_link{
+    font-size: 10px;
+    padding-bottom: 2%;
+    letter-spacing: 0.8px;
+    color: rgb(32, 97, 103);
+}
+
+.text{
+  margin: 100px;
+}
+
+.timex_content{
   text-align: center;
+  padding-top: 30px;
 }
 
-.App-logo {
-  height: 40vmin;
+.footer.newsletter.email {
+  float: left;
+  height: 30px;
+  font-size: 10px;
+  padding-left: 0%;
+  background: #ddd;
+  border: 1px solid #000;
+  border-bottom: 1.5px solid rgba(0, 0, 0, 0.58);
+  /* border: 0px solid #000; */
+  border-right-width: 0px;
+  border-left-width: 0px;
+  border-top-width: 0px;
+  font-family: "gotham-light";
+  width: 60%;
+  margin-top: 5%;
+  letter-spacing: 1px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.input-group-addon.subscribe-newsletter {
+    margin-top: 2.1%;
+    cursor: pointer;
+    float: left;
+    border: 1.5px solid rgba(0, 0, 0);
+    padding-bottom: 3.39%;
+    padding-right: 2.5%;
+    color: #000;
+    background: #ddd;
 }
 
-.App-link {
-  color: #09d3ac;
+.button-subscribe {
+  width: 120.375px;
+  letter-spacing: 1.5px;
+  padding-top: 15px;
+  font-size: 10px;
+  border-radius: 100px !important;
+}
+
+.button-register{
+  width: 120.375px;
+  letter-spacing: 1.5px;
+  padding-top: 15px;
+  font-size: 10px;
+  border-radius: 100px !important;
+  border: 1px solid black;
+}
+
+.email-subscribe {
+  margin-right: 7%;
+  width: 56%;
+}
+
+.footer_link a {
+  color: #212529 !important;
+}
+
+.input-group-addon {
+  padding: 6px 12px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1;
+  color: #555;
+  text-align: center;
+  background-color: #eee;
+  border: 1px solid #ccc;
+  border-radius: 4px;
 }
